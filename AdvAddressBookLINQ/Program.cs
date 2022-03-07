@@ -11,6 +11,7 @@ namespace AdvAddressBookLINQ
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Advanced AddressBook system using LINQ");
+            AddressBookManager.CreateDataTable();
             Console.ReadLine();
         }
     }
